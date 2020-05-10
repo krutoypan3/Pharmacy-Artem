@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ce7c721-fa03-429f-b888-e6637dbe1893" name="Default Changelist" comment="" />
+    <list default="true" id="5ce7c721-fa03-429f-b888-e6637dbe1893" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ajaKqIFlTcSaQ3PSnyNp0cMMsT" />
   <component name="ProjectViewState">
@@ -43,5 +49,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-43" y="103" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1587251722164" />
+    <state x="631" y="371" width="672" height="678" key="search.everywhere.popup" timestamp="1589151075824">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="631" y="371" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1589151075824" />
   </component>
 </project>

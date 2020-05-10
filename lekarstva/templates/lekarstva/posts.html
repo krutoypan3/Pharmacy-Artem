@@ -1,0 +1,49 @@
+{% extends "mainApp/wrapper.html" %}
+
+{% block content %}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<div class="container mt-3">
+<!--строка поиска-->
+    <div class="d-inline-flex-fill p-3 bg-dark text-white">
+          <div class="p-2 bg-success">
+              <input class="form-control" id="myInput" type="text" placeholder="Поиск препаратов по названию и цене.."><br>
+          </div>
+    </div>
+<!--заголовок таблицы-->
+  <table class="table table-dark bg-secondary table-hover">
+         <thead class="thead-dark">
+      <tr>
+        <th class="d-inline-flex-fill p-3 bg-dark text-white">
+          <h3 class="p-2 bg-success" align="middle">Название препарата</h3></th>
+        <th class="d-inline-flex-fill p-3 bg-dark text-white">
+          <h3 class="p-2 bg-success" align="middle">Цена препарата</h3></th>
+      </tr>
+    </thead>
+<!--тело таблицы и ее заполнение циклом for-->
+{% for post in object_list %}
+<tbody  id="myTable">
+      <tr>
+        <td ><a class="btn btn-primary btn-block" href="/lekarstva/{{post.id}}"><h3>{{post.title}}</h3></a></td>
+          <td  align="right"><a class="btn btn-info btn-block" href="/lekarstva/{{post.id}}"><h3>{{post.price}} рублей</h3></a></td>
+      </tr>
+      {% endfor %}
+      </tbody>
+  </table>
+</div>
+
+<!--функция для поиска (Не трожььь убьёт)-->
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+{% endblock %}

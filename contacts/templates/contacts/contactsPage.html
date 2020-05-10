@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Контакты</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"
+    type="text/css">
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" class="img-thumbnail">
+</head>
+<body style="background: red">
+    <div class="jumbotron" style="background: coral">
+        <div class="container">
+            <div class="container" align="middle">
+                <h1 style="background: red">Простите нас >_<</h1>
+                <a href="/" class="btn btn-success btn-lg">Главная страница аптеки
+                &raquo;</a>
+                <a href="/lekarstva/" class="btn btn-info btn-lg">Перейти к лекарствам</a>
+                <a href="/contacts/" class="btn btn-primary btn-lg">Контакты
+                &raquo;</a>
+                <h1>Обратная связь</h1>
+                <h2>Если у вас возникли вопросы, просьба обратиться по адресу:</h2>
+                <h3> &raquo; 8-918-229-02-85</h3>
+                <h3> &raquo; krutoypan3@gmail.com</h3>
+                </div>
+        </div>
+    </div>
+    <div class="container" align="middle">
+        <img src="{% static 'contacts/cat.jpg' %}" class="img-thumbnail"  style="background: coral">
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{% extends "mainApp/wrapper.html" %}
+    {% load static %}
+
+{% block content %}
+
+<h4>
+    <div align="left"> <a href="/lekarstva/" class="btn btn-warning btn-md">Вернуться назад</a></div>
+    <div class="row">
+    <div class="col-md-1" style="background-color: silver"> </div>
+    <div class="col-md-10" style="background-color: silver" align="middle">
+        <div class="d-inline-flex p-3 bg-secondary text-white rounded">
+              <div class="p-2 bg-dark rounded">{{articles.title}}</div></div><p></p>
+<html>
+    <body>
+    <img class="img-fluid rounded " width="600" height="800" src="{{articles.body}}" style="background-color: silver" >
+    </body>
+</html>
+        <h6></h6>
+        {{articles.text}}
+        <div class="row">
+            <div class="col-md-4" style="background-color: silver"> </div>
+            <div class="col-md-4" style="background-color: silver" align="middle">
+            <p style="background-color: lime">Цена: {{articles.price}} рублей</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</h4>
+{% endblock %}

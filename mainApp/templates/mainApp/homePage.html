@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Аптека Артема</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"
+    type="text/css">
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" class="img-thumbnail">
+</head>
+<body>
+        <div class="container-fluid" style="background-color: silver">
+            <div class="row">
+                <div class="col-md-2" style="background-color: green">
+                    <p></p>
+                    <img src="{% static 'mainApp/3.jpg' %}" class="img-thumbnail">
+                    <p></p>
+                    <img src="{% static 'mainApp/4.jpg' %}" class="img-thumbnail">
+                    <p></p>
+                    <img src="{% static 'mainApp/1.jpg' %}" class="img-thumbnail">
+                    <p></p>
+                    <img src="{% static 'mainApp/2.jpg' %}" class="img-thumbnail">
+                    <p></p>
+                </div>
+                <div class="col-md-8" style="background-color: silver" align="middle">
+                    <h1 style="background-color: green"> Добро пожаловать</h1>
+            <p>
+
+                <a href="/" class="btn btn-success btn-md">Главная страница аптеки</a>
+                <a href="/lekarstva/" class="btn btn-info btn-md">Перейти к лекарствам</a>
+                <a href="/contacts/" class="btn btn-primary btn-md">Контакты &raquo;</a>
+                <a href="/admin/" class="btn btn-danger btn-md">Войти &raquo;</a>
+            </p>
+<p></p>
+
+                         <img class="rounded" width="600" height="800" src="https://sun9-14.userapi.com/c206728/v206728023/10bdc1/ppOh-NLdAn8.jpg" style="background-color: silver" >
+                     <p></p>
+                    {% block content %}
+                    {% endblock %}
+                    </div>
+                 <div class="col-md-2" style="background-color: green">
+                     <p></p>
+                     <img src="{% static 'mainApp/1.jpg' %}" class="img-thumbnail">
+                     <p></p>
+                     <img src="{% static 'mainApp/2.jpg' %}" class="img-thumbnail">
+                     <p></p>
+                     <img src="{% static 'mainApp/3.jpg' %}" class="img-thumbnail">
+                     <p></p>
+                     <img src="{% static 'mainApp/4.jpg' %}" class="img-thumbnail">
+                     <p></p>
+                 </div>
+            </div>
+        </div>
+
+</body>
+</html>

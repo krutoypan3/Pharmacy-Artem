@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ce7c721-fa03-429f-b888-e6637dbe1893" name="Default Changelist" comment="">
+    <list default="true" id="5ce7c721-fa03-429f-b888-e6637dbe1893" name="Default Changelist" comment="lol">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1ajaKqIFlTcSaQ3PSnyNp0cMMsT" />
   <component name="ProjectViewState">
@@ -44,11 +45,23 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lol" />
+    <option name="LAST_COMMIT_MESSAGE" value="lol" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="561" y="135" key="CommitChangelistDialog2" timestamp="1589154210188">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="561" y="135" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1589154210188" />
     <state x="-43" y="103" key="SettingsEditor" timestamp="1587251722164">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-43" y="103" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1587251722164" />
+    <state x="770" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589154214796">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="770" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1589154214796" />
     <state x="631" y="371" width="672" height="678" key="search.everywhere.popup" timestamp="1589151075824">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -10,18 +10,18 @@
     type="text/css">
     <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" class="img-thumbnail">
 </head>
-<body>
-        <div class="container-fluid" style="background-color: silver">
+<body class="background">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2" style="background-color: green">
                     <p></p>
-                    <img src="{% static 'mainApp/3.jpg' %}" class="img-thumbnail">
+                    <img src="{% static 'mainApp/3.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                     <p></p>
-                    <img src="{% static 'mainApp/4.jpg' %}" class="img-thumbnail">
+                    <img src="{% static 'mainApp/4.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                     <p></p>
-                    <img src="{% static 'mainApp/1.jpg' %}" class="img-thumbnail">
+                    <img src="{% static 'mainApp/1.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                     <p></p>
-                    <img src="{% static 'mainApp/2.jpg' %}" class="img-thumbnail">
+                    <img src="{% static 'mainApp/2.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                     <p></p>
                 </div>
                 <div class="col-md-8">
@@ -43,17 +43,19 @@ VK.Widgets.ContactUs("vk_contact_us", {text: "Есть вопросы? Напи�
                     </div>
                  <div class="col-md-2" style="background-color: green">
                      <p></p>
-                     <img src="{% static 'mainApp/1.jpg' %}" class="img-thumbnail">
+                     <img src="{% static 'mainApp/1.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                      <p></p>
-                     <img src="{% static 'mainApp/2.jpg' %}" class="img-thumbnail">
+                     <img src="{% static 'mainApp/2.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                      <p></p>
-                     <img src="{% static 'mainApp/3.jpg' %}" class="img-thumbnail">
+                     <img src="{% static 'mainApp/3.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                      <p></p>
-                     <img src="{% static 'mainApp/4.jpg' %}" class="img-thumbnail">
+                     <img src="{% static 'mainApp/4.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                      <p></p>
                  </div>
             </div>
         </div>
+
+<!--Кнопка вверх-->
 <style type="text/css">
 .upsite {
   display:block;
@@ -64,6 +66,21 @@ VK.Widgets.ContactUs("vk_contact_us", {text: "Есть вопросы? Напи�
   top:870px;
 }
 </style>
+
+<!--Фон для сайта-->
+<style type="text/css">
+.background {background-image:url('https://desktoplux.com/wallpapers/2000/1263/800x500.jpg');
+    color: #fff;
+    max-width: 100%;
+    height: 100%;
+    -webkit-background-size: 100;
+    -moz-background-size: 100;
+    -o-background-size: 100;
+    background-size: 100;
+    background-attachment: relative;
+}
+</style>
+
 <a href="#" class="upsite"><img class="rounded" width="50" height="50" src="https://emojio.ru/images/apple-b/2b06.png"></a>
 </body>
 </html>

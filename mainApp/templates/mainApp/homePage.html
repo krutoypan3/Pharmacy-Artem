@@ -10,32 +10,45 @@
     type="text/css">
     <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" class="img-thumbnail">
 </head>
-<body>
-        <div class="container-fluid" style="background-color: silver">
+<body class="background">
+
+<!--Фон для сайта-->
+<style type="text/css">
+.background {background-image:url('https://desktoplux.com/wallpapers/2000/1263/800x500.jpg');
+    color: #fff;
+    max-width: 100%;
+    height: 100%;
+    -webkit-background-size: 100;
+    -moz-background-size: 100;
+    -o-background-size: 100;
+    background-size: 100;
+    background-attachment: relative;
+}
+</style>
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2" style="background-color: green">
                     <p></p>
-                    <img src="{% static 'mainApp/3.jpg' %}" class="img-thumbnail">
+                    <img src="{% static 'mainApp/3.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                     <p></p>
-                    <img src="{% static 'mainApp/4.jpg' %}" class="img-thumbnail">
+                    <img src="{% static 'mainApp/4.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                     <p></p>
-                    <img src="{% static 'mainApp/1.jpg' %}" class="img-thumbnail">
+                    <img src="{% static 'mainApp/1.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                     <p></p>
-                    <img src="{% static 'mainApp/2.jpg' %}" class="img-thumbnail">
+                    <img src="{% static 'mainApp/2.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                     <p></p>
                 </div>
-                <div class="col-md-8" style="background-color: silver" align="middle">
-                    <h1 style="background-color: green"> Добро пожаловать</h1>
+                <div class="col-md-8" align="middle">
+                    <h1 style="background-color: #008000"> Добро пожаловать</h1>
             <p>
-
                 <a href="/" class="btn btn-success btn-md">Главная страница аптеки</a>
                 <a href="/lekarstva/" class="btn btn-info btn-md">Перейти к лекарствам</a>
                 <a href="/contacts/" class="btn btn-primary btn-md">Контакты &raquo;</a>
                 <a href="/admin/" class="btn btn-danger btn-md">Войти &raquo;</a>
             </p>
-<p></p>
+                     <p></p>
 
-                         <a href="http://www.agpu.net/"><img class="rounded" width="960" height="540" src="https://sun9-32.userapi.com/c205820/v205820102/10bc54/bRNdDgS5HtE.jpg" style="background-color: silver"  ></a>
+                    <a href="http://www.agpu.net/"><img class="rounded" width="960" height="540" src="https://sun9-32.userapi.com/c205820/v205820102/10bc54/bRNdDgS5HtE.jpg" style="background-color: silver"  ></a>
                      <p></p>
                     {% block content %}
                     {% endblock %}
@@ -50,16 +63,17 @@ VK.Widgets.ContactUs("vk_contact_us", {text: "Есть вопросы? Напи�
                     </div>
                  <div class="col-md-2" style="background-color: green">
                      <p></p>
-                     <img src="{% static 'mainApp/1.jpg' %}" class="img-thumbnail">
+                     <img src="{% static 'mainApp/1.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                      <p></p>
-                     <img src="{% static 'mainApp/2.jpg' %}" class="img-thumbnail">
+                     <img src="{% static 'mainApp/2.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                      <p></p>
-                     <img src="{% static 'mainApp/3.jpg' %}" class="img-thumbnail">
+                     <img src="{% static 'mainApp/3.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                      <p></p>
-                     <img src="{% static 'mainApp/4.jpg' %}" class="img-thumbnail">
+                     <img src="{% static 'mainApp/4.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
                      <p></p>
                  </div>
             </div>
         </div>
+
 </body>
 </html>

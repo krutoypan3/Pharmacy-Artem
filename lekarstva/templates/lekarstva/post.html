@@ -6,21 +6,23 @@
 <h4>
     <div align="left"> <a href="/lekarstva/" class="btn btn-warning btn-md">Вернуться назад</a></div>
     <div class="row">
-    <div class="col-md-1" style="background-color: silver"> </div>
-    <div class="col-md-10" style="background-color: silver" align="middle">
+    <div class="col-md-1"> </div>
+    <div class="col-md-10" align="middle">
         <div class="d-inline-flex p-3 bg-secondary text-white rounded">
               <div class="p-2 bg-dark rounded">{{articles.title}}</div></div><p></p>
 <html>
     <body>
-    <img class="img-fluid rounded " width="600" height="800" src="{{articles.body}}" style="background-color: silver" >
+    <img class="img-fluid rounded" style="background-color: silver" width="600" height="800" src="{{articles.body}}" >
     </body>
 </html>
         <h6></h6>
+        <div style="background-color: silver" class="rounded, text-body">
         {{articles.text}}
+        </div>
         <div class="row">
-            <div class="col-md-4" style="background-color: silver"> </div>
-            <div class="col-md-4" style="background-color: silver" align="middle">
-            <p style="background-color: lime">Цена: {{articles.price}} рублей</p>
+            <div class="col-md-4"> </div>
+            <div class="col-md-4" align="middle">
+            <p style="background-color: white" class="rounded, text-body">Цена: {{articles.price}} рублей</p>
             </div>
         </div>
     </div>

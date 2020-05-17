@@ -20,17 +20,9 @@ body {
 </style>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-2" style="background-color: green">
-                    <p></p>
-                    <img src="{% static 'mainApp/3.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
-                    <p></p>
-                    <img src="{% static 'mainApp/4.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
-                    <p></p>
-                    <img src="{% static 'mainApp/1.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
-                    <p></p>
-                    <img src="{% static 'mainApp/2.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
-                    <p></p>
-                </div>
+                <div class="col-md-2" style="background-color: black" align="justify">
+                     <iframe src="https://deswal.ru/wide/1920-1200/00000800.jpg" class="fixscreen" dir="rtl" width=320 height=400 frameborder="0" align="left" scrolling="no"></iframe>
+                 </div>
                 <div class="col-md-8">
                         <h1>Приятных покупок!</h1>
             <p>
@@ -40,6 +32,22 @@ body {
             </p>
                     {% block content %}
                     {% endblock %}
+
+
+                    <!--какая-то дичь, но работает, прокрутка наверх-->
+<script type="text/javascript">
+var t;
+function up() {
+var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
+if(top > 0) {
+window.scrollBy(0,-100);
+t = setTimeout('up()',20);
+} else clearTimeout(t);
+return false;
+}
+</script>
+
+
 <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
 
 <!-- VK Widget -->
@@ -48,16 +56,8 @@ body {
 VK.Widgets.ContactUs("vk_contact_us", {text: "Есть вопросы? Напишите нам", height: 30}, 267141542);
 </script>
                     </div>
-                 <div class="col-md-2" style="background-color: green">
-                     <p></p>
-                     <img src="{% static 'mainApp/1.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
-                     <p></p>
-                     <img src="{% static 'mainApp/2.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
-                     <p></p>
-                     <img src="{% static 'mainApp/3.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
-                     <p></p>
-                     <img src="{% static 'mainApp/4.jpg' %}" class="img-thumbnail" style="background-color: #DB7093">
-                     <p></p>
+                 <div class="col-md-2" style="background-color: black" align="justify">
+                     <iframe src="https://deswal.ru/wide/1920-1200/00000800.jpg" class="fixscreen" width=320 height=400 frameborder="0" scrolling="no"></iframe>
                  </div>
             </div>
         </div>
@@ -69,14 +69,29 @@ VK.Widgets.ContactUs("vk_contact_us", {text: "Есть вопросы? Напи�
   width:50px;
   height:50px;
   position:fixed;
-  left:105;
-  top:870px;
+  left:350px;
+  top:850px;
+}
+</style>
+<!--Фиксация на экране-->
+<style type="text/css">
+.fixscreen {background-image:url('https://www.meme-arsenal.com/memes/a784046a107d8433ceb060f814c7cf8e.jpg');
+    color: #fff;
+    max-width: 100%;
+    height: 100%;
+    -webkit-background-size: 100;
+    -moz-background-size: 100;
+    -o-background-size: 100;
+    background-size: 100;
+    background-attachment: relative;
+    position:fixed;
+
 }
 </style>
 
 <!--Фон для сайта-->
 <style type="text/css">
-.background {background-image:url('https://desktoplux.com/wallpapers/2000/1263/800x500.jpg');
+.background {background-image:url('https://giffiles.alphacoders.com/156/15666.gif');
     color: #fff;
     max-width: 100%;
     height: 100%;
@@ -87,7 +102,6 @@ VK.Widgets.ContactUs("vk_contact_us", {text: "Есть вопросы? Напи�
     background-attachment: relative;
 }
 </style>
-
-<a href="#" class="upsite"><img class="rounded" width="50" height="50" src="https://emojio.ru/images/apple-b/2b06.png"></a>
+<a href="#" class="upsite" onclick="return up()"><img class="rounded" width="70" height="70" src="https://lh4.ggpht.com/-PkOzwj3t_co/T2_wHyWJNBI/AAAAAAAAGeo/7ZL8x58vLLk/up%25255B4%25255D.png?imgmax=800"></a>
 </body>
 </html>

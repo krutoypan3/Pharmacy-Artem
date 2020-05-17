@@ -26,8 +26,22 @@
 {% for post in object_list %}
 <tbody  id="myTable">
       <tr>
-        <td ><a class="btn btn-primary btn-block" href="/lekarstva/{{post.id}}"><h3>{{post.title}}</h3></a></td>
-          <td  align="right"><a class="btn btn-info btn-block" href="/lekarstva/{{post.id}}"><h3>{{post.price}} рублей</h3></a></td>
+        <td>
+            <a class="btn btn-primary btn-block" href="/lekarstva/{{post.id}}">
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                <img class="rounded" width="150" height="150" src="{{post.body}}">
+                </div>
+                <div class="col-md-6">
+                <h2>{{post.title}}</h2>
+                </div>
+            </div>
+            </div>
+            </a>
+        </td>
+
+          <td align="center" valign="middle"><a class="btn btn-info btn-block" href="/lekarstva/{{post.id}}" ><h1>{{post.price}} рублей</h1><h1>---</h1><h4>Купить</h4></a></td>
       </tr>
       {% endfor %}
       </tbody>

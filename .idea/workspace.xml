@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ce7c721-fa03-429f-b888-e6637dbe1893" name="Default Changelist" comment="lol">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mysite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lekarstva/templates/lekarstva/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/lekarstva/templates/lekarstva/posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainApp/templates/mainApp/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainApp/templates/mainApp/homePage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +26,13 @@
   <component name="ProjectId" id="1ajaKqIFlTcSaQ3PSnyNp0cMMsT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
@@ -54,9 +57,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="561" y="135" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1589241142273" />
-    <state x="-43" y="103" key="SettingsEditor" timestamp="1587251722164">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1591747843621">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1591747843621" />
     <state x="-43" y="103" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1587251722164" />
     <state x="770" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589154214796">
       <screen x="0" y="0" width="1920" height="1050" />
